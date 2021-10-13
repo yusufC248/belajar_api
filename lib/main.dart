@@ -1,3 +1,4 @@
+import 'package:belajar_api/ui/list_biasa.dart';
 import 'package:flutter/material.dart';
 
 import 'ui/homescreen_view.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: TampilData(),
     );
   }
 }
